@@ -48,7 +48,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-+   Snap
+    Snap
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -67,8 +67,8 @@ PRODUCT_COPY_FILES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.manager@1.0
+    android.hidl.base@1.0_system \
+    android.hidl.manager@1.0_system
 
 # Init
 PRODUCT_PACKAGES += \
