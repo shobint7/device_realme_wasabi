@@ -19,6 +19,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.camera.sound.forced=0 \
     ro.audio.silent=0
 
+# Charger
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.charger.enable_suspend=true
+
 # Display
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opengles.version=196610 \
