@@ -50,6 +50,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     Snap
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    devicesettings
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -82,6 +86,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
+    init.devicesetting.rc \
     fstab.mt6785
 
 # Keylayouts
