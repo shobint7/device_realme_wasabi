@@ -20,6 +20,11 @@ on post-fs
     #  so it is fine to just revert back)
     umount /vendor/etc/fstab.mt6785
 
+on late-fs
+
+on property:init.svc.face_hal=restarting
+    stop face_hal
+
 on post-fs-data
     # Hack until we build the vendor
     mount none /dev/null vendor/lib/hw/lights.mt6785.so bind
