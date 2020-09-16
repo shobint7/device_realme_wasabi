@@ -1,0 +1,8 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "TheMalachite/wasabi",
+    "target_path": "kernel/realme/wasabi",
+    "branch"     : "wasabi-q-oss"
+  }
+]
