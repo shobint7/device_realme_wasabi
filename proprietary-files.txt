@@ -1,0 +1,16 @@
+# Bluetooth (aptX)
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+
+# Firmware
+etc/firmware/hx_criteria.csv
+
+# Hotword
+-product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
+
+# Oppo
+lib/vendor.oppo.hardware.ktv@1.0.so
+lib64/vendor.oppo.hardware.ktv@1.0.so
+
+# Soter
+-app/SoterService/SoterService.apk
