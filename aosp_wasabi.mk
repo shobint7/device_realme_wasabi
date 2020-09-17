@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from wasabi device makefile
-$(call inherit-product, device/realme/RMX2001/device.mk)
+$(call inherit-product, device/realme/wasabi/device.mk)
 
 # Inherit some common Evolution X stuff.
 CUSTOM_BUILD_TYPE := UNOFFICIAL
