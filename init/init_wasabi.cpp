@@ -23,8 +23,6 @@
 #include "vendor_init.h"
 #include "property_service.h"
 
-using android::init::property_set;
-
 void property_override(char const prop[], char const value[])
 {
 	prop_info *pi;
