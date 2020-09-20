@@ -82,3 +82,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
+# Properties
+-include $(DEVICE_PATH)/system_prop.mk
