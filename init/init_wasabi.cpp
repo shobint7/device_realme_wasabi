@@ -41,15 +41,13 @@ void property_override(char const prop[], char const value[])
 		__system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
-char const *heapstartsize;
-char const *heapgrowthlimit;
-char const *heapsize;
-char const *heapminfree;
-char const *heapmaxfree;
-char const *heaptargetutilization;
-
-void check_device()
-{
+void load_dalvik_properties() {
+    char const *heapstartsize;
+    char const *heapgrowthlimit;
+    char const *heapsize;
+    char const *heapminfree;
+    char const *heapmaxfree;
+    char const *heaptargetutilization;
     struct sysinfo sys;
 
     sysinfo(&sys);
@@ -78,12 +76,9 @@ void check_device()
         heaptargetutilization = "0.6";
         heapminfree = "8m";
         heapmaxfree = "16m";
+    } else {
+        return;
     }
-}
-
-void vendor_load_properties()
-{
-    check_device();
 
     property_override("dalvik.vm.heapstartsize", heapstartsize);
     property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
@@ -91,4 +86,8 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+}
+
+void vendor_load_properties() {
+        load_dalvik_properties();
 }
