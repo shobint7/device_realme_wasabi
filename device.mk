@@ -84,4 +84,4 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Properties
--include $(DEVICE_PATH)/system_prop.mk
+-include $(DEVICE_PATH)/properties.mk

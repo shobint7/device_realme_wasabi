@@ -58,6 +58,9 @@ TARGET_NO_BOOTLOADER := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Display
+TARGET_USES_HWC2 := true
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
