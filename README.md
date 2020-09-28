@@ -1,9 +1,9 @@
 Copyright (C) 2020 - Android Open Source Project
 
-Device tree for the Realme 6 (RMX2001) - Realme 6i India / Realme Narzo (RMX2002) - Realme 6S (RMX2003)
+Device tree for the Realme 6 (RMX2001, RMX2002 and RMX2003) - Realme 6S / Realme 6i India / Realme Narzo (RMX2002)
 =================================================
 
-The Realme 6 (codenamed _"RMX2001"_) - Realme 6i India / Realme Narzo (codenamed _"RMX2002"_) - Realme 6S (codenamed _"RMX2003"_) are mid-range smartphones from Realme.
+The Realme 6 (codenamed _"RMX2001, RMX2002 and RMX2003"_) - Realme 6S / Realme 6i India / Realme Narzo (codenamed _"RMX2002"_) are mid-range smartphones from Realme.
 They was released in March, June and July 2020.
 
 This device tree commonize them as Realme G90T series (codenamed _"wasabi"_)
