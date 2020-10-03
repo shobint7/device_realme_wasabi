@@ -100,5 +100,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
+# Trustonic TEE
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/public.libraries-trustonic.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-trustonic.txt
+
 # Properties
 -include $(DEVICE_PATH)/properties.mk
