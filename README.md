@@ -1,4 +1,4 @@
-Copyright (C) 2020 - Android Open Source Project
+Copyright (C) 2020 - The Evolution X Project
 
 Device tree for the Realme 6 (RMX2001, RMX2002 and RMX2003) - Realme 6S / Realme 6i India / Realme Narzo (RMX2002)
 =================================================
