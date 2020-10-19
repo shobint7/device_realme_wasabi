@@ -30,6 +30,7 @@ $(call inherit-product, vendor/realme/wasabi/wasabi-vendor.mk)
 
 # Define Dynamic Partition support
 PRODUCT_TARGET_VNDK_VERSION := 29
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
