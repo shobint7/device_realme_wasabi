@@ -4,11 +4,5 @@
     "repository" : "TheMalachite/vendor_realme_wasabi",
     "target_path": "vendor/realme/wasabi",
     "branch"     : "ten"
-  },
-  {
-    "remote"     : "github",
-    "repository" : "TheMalachite/wasabi",
-    "target_path": "kernel/realme/wasabi",
-    "branch"     : "wasabi-q-oss"
   }
 ]
