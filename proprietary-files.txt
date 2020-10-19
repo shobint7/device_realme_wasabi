@@ -19,7 +19,6 @@ etc/firmware/hx_criteria.csv
 -priv-app/ImsService/ImsService.apk
 bin/vtservice
 etc/init/init.vtservice.rc
-etc/permissions/privapp-permissions-mediatek.xml
 framework/mediatek-ims-extension-plugin.jar
 framework/mediatek-ims-legacy.jar
 lib/libcomutils.so
