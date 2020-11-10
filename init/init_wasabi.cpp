@@ -90,4 +90,6 @@ void load_dalvik_properties() {
 
 void vendor_load_properties() {
         load_dalvik_properties();
+	
+	property_set("ro.sf.lcd_density", "420");
 }
